@@ -1,6 +1,6 @@
 # Reproduced: Continuous-Time Reward Machines
 
-A from-scratch Python re-implementation of **Continuous-Time Reward Machines (CTRMs)** and the learning methods proposed for them in:
+A Python re-implementation of **Continuous-Time Reward Machines (CTRMs)** and the learning methods proposed for them in:
 
 > Amin Falah, Shibashis Guha, and Ashutosh Trivedi. *Continuous-Time Reward Machines.* Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence (IJCAI 2025). [doi:10.24963/ijcai.2025/563](https://doi.org/10.24963/ijcai.2025/563)
 
@@ -8,7 +8,7 @@ It covers tabular **baseline Q-learning** for continuous-time MDPs, **counterfac
 
 Built for the research pathway of CS 4100 *Artificial Intelligence* at Northeastern University (Spring 2026). My presentation of the paper and of these results is in [`docs/presentation.pdf`](docs/presentation.pdf).
 
-> **Note on AI use:** Claude (an AI assistant) was used only to organize my original course files into this GitHub project. That meant restructuring the folders, pointing the plotting scripts at `results/figures/`, and writing this README. The reinforcement-learning code, experiments and presentation are my own coursework.
+> **Note on AI use:** Claude (an AI assistant) was used only to organize my original course files into this GitHub project. That meant restructuring the folders, pointing the plotting scripts at `results/figures/`, and writing this README. The reinforcement-learning code, experiments and presentation are my own work. I took inspiration from the authors' implementation at [falahamin1/Continuous-Time-Reward-Machines](https://github.com/falahamin1/Continuous-Time-Reward-Machines).
 
 ![Autonomous-vehicle delivery gridworld with traffic rates](results/figures/autonomous_vehicle_grid.png)
 
@@ -91,4 +91,4 @@ python main.py                      # baseline vs counterfactual on the 5x5 cop-
 
 ## Acknowledgements
 
-The CTRM formalism, the counterfactual-experience and reward-shaping methods, and the autonomous-vehicle benchmark are from Falah, Guha and Trivedi (IJCAI 2025). This repository is my independent re-implementation for coursework.
+The CTRM formalism, the counterfactual-experience and reward-shaping methods, and the autonomous-vehicle benchmark are from Falah, Guha and Trivedi (IJCAI 2025). This repository is my own re-implementation for coursework. It took inspiration from the authors' code at [github.com/falahamin1/Continuous-Time-Reward-Machines](https://github.com/falahamin1/Continuous-Time-Reward-Machines).
